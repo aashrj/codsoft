@@ -1,0 +1,16 @@
+# @calculator
+operator = (input("Enter The OPerator(+ - * /):"))
+num1 = float(input("Enter The 1st Number:"))
+num2 = float(input("Enter The 2nd Number:"))
+
+if operator == "+":
+  result = num1 + num2
+  print(round(result, 3))
+elif operator == "-":
+  result = num1 - num2
+elif operator == "*":
+  result = num1 * num2
+elif operator == "/":
+  result = num1 / num2
+else:
+  print(f"{operator}is invatid operator")
